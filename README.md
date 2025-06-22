@@ -8,9 +8,9 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-# WebSort Company - ReactJS Website
+# WebSort Assignment - ReactJS Website
 
-This is a responsive and modern website built for **WebSort Company** using ReactJS. The project uses **Vite** for blazing-fast development and build process, **React Router DOM** for seamless navigation between pages, and **Swiper.js** for elegant and responsive image sliders.
+&nbsp; This is a responsive and modern website built for **WebSort assignment** using ReactJS. The project uses **Vite** for blazing-fast development and build process, **React Router DOM** for seamless navigation between pages, and **Swiper.js** for elegant and responsive image sliders.
 
 ## 🚀 Tech Stack
 
@@ -18,7 +18,7 @@ This is a responsive and modern website built for **WebSort Company** using Reac
 - **Vite**
 - **React Router DOM**
 - **Swiper.js**
-- **CSS / SCSS / Tailwind (if applicable)**
+- **CSS**
 
 ---
 
@@ -32,21 +32,19 @@ This is a responsive and modern website built for **WebSort Company** using Reac
 
 ---
 
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
-
-```bash
-# Move into the project directory
-cd your-repo-name
-```bash
-# Install dependencies
+### Install dependencies:
+```bah
 npm install
-```bash
-# Run the development server
+```
+### Run the development server:
+```bash 
 npm run dev
+```
+### Build for production:
+```bash 
+npm run build
+```
+
 
 
 
