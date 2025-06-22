@@ -1,0 +1,104 @@
+.contact-us-form-section {
+  background-image: url("../../assets/contact/contactbg_2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-width: 430px;
+  height: 509px;
+}
+.contact-us-form-section-heading {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 17px;
+  padding-left: 16px;
+  margin-top: 20px;
+  color: #fff;
+}
+.contact-us-form-section-desc {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 13px;
+  padding-left: 16px;
+  margin-top: 20px;
+  color: #fff;
+}
+.contact-us-form-submit {
+  width: 300px;
+  padding-left: 16px;
+  margin-top: 20px;
+}
+
+.contact-us-form-submit div {
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-us-form-section {
+    height: 450px;
+  }
+  .contact-us-form-section-heading {
+    font-size: 35px;
+  }
+
+  .contact-us-form-section-desc {
+    font-size: 20px;
+  }
+  .contact-us-form-submit {
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .contact-us-form-submit div {
+    width: 300px;
+  }
+}
+
+.form-label {
+  color: #d1f5ff;
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 16px;
+  display: block;
+}
+
+.form-input {
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+  border-bottom: 1px solid #e83e40;
+  background-color: transparent;
+  height: 20px;
+  padding: 2px;
+  width: 300px;
+  margin-top: 2px;
+  display: inline-block;
+}
+
+.form-input-msg {
+  width: 182px;
+  height: 37px;
+  top: 713px;
+  left: 16px;
+  border-width: 2px;
+  background-color: #000000;
+  border: 1px solid #ee3c3c;
+  outline: none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.form-btn {
+  width: 104px;
+  height: 24px;
+  background-color: #dd5151;
+  color: #fff;
+  border-radius: 19px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 20px;
+  border-style: none;
+}

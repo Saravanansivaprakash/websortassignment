@@ -1,0 +1,100 @@
+.contact-us-header {
+  background-image: url("../../assets/contact/contact.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-width: 430px;
+  height: 190px;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-us-header {
+    height: 500px;
+  }
+}
+
+.contact-us-text-section {
+  width: 412px;
+  height: 99px;
+  padding: 9px;
+  font-family: Montserrat;
+  font-weight: 700;
+  color: #000;
+  padding-top: 10px;
+}
+
+.contact-us-header-text {
+  font-size: 25px;
+}
+
+.contact-us-header-para {
+  width: 286px;
+  height: 49px;
+  font-size: 12px;
+  margin-top: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-us-text-section {
+    position: absolute;
+    top: 170px;
+    right: 0px;
+  }
+  .contact-us-header-text {
+    padding-left: 10px;
+    font-size: 40px;
+  }
+
+  .contact-us-header-para {
+    font-size: 20px;
+  }
+}
+
+.contact-us-address {
+  width: 100%;
+  min-width: 430px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.address-heading {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+.address-image {
+  width: 350px;
+  height: 244px;
+  margin-top: 40px;
+}
+
+.hide-address {
+  width: 180px;
+  height: 150px;
+  padding: 10px;
+  color: #fff;
+  border: 1px solid #ffffff;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  font-family: Mandali;
+  font-weight: 400;
+}
+
+.address-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .hide-address {
+    display: flex;
+  }
+}

@@ -1,0 +1,39 @@
+.project-section {
+  background-color: #292c37;
+  width: 100%;
+  min-width: 430px;
+}
+
+.project-section-heading {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 35px;
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.project-section-heading1 {
+  padding-top: 10px;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .project-section-heading {
+    display: none;
+  }
+  .project-section-heading1 {
+    display: block;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .project-section {
+    background-image: url("../../assets/project/project-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

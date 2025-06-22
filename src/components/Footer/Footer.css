@@ -1,0 +1,123 @@
+/*Footer container*/
+.footer {
+  width: 100%;
+  min-width: 430px;
+  height: 280px;
+  background-color: #000000;
+}
+
+.footer-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 131px;
+  height: 36px;
+  margin-top: 45px;
+}
+.footer-details-text-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.footer-details-text-left {
+  width: 166px;
+  height: 98px;
+  font-family: Mandali;
+  font-weight: 400;
+  font-size: 13px;
+  color: #fff9f9;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 0;
+}
+
+.footer-details-text-right {
+  width: 166px;
+  height: 100px;
+  font-family: Mandali;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff9f9;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.footer-copyright-container {
+  width: 100%;
+  min-width: 430px;
+  height: 35px;
+  background-color: #dae5ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.foot-text {
+  font-family: Jacques Francois;
+  font-weight: 400;
+  font-size: 13px;
+  color: #000000;
+}
+.footer-details-cont1 {
+  display: flex;
+}
+
+.footer-socialmedia {
+  display: none;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+/* Responsive  */
+@media screen and (min-width: 768px) {
+  .footer {
+    width: 100%;
+  }
+
+  .footer-logo {
+    width: 226px;
+    height: 62px;
+  }
+  .footer-details-text-container {
+    flex-direction: column;
+    justify-content: start;
+    gap: 1px;
+  }
+  .footer-details-container {
+    align-items: start;
+    padding-left: 72px;
+  }
+  .footer-details-text-left {
+    flex-wrap: nowrap;
+    width: 621px;
+    height: 37px;
+    font-size: 19px;
+  }
+  .footer-details-text-right {
+    flex-wrap: nowrap;
+    width: 591px;
+    height: 37px;
+    font-size: 19px;
+  }
+
+  .footer-copyright-container {
+    width: 100%;
+    height: 66px;
+  }
+  .footer-socialmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,116 @@
+.service-top-section {
+  width: 100%;
+  min-width: 430px;
+  height: 1300px;
+  background-image: url("../../assets/services/services_bg_1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-top-section-heading {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 35px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.service-top-section-card {
+  height: 607px;
+  width: 100%;
+  min-width: 430px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.service-top-section-card-img {
+  width: 245px;
+  height: 262px;
+  border-radius: 42px;
+  border: 6px solid #fff;
+}
+
+.service-top-section-card-text {
+  width: 245px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-top-section-card-text-heading {
+  font-family: Mukta;
+  font-weight: 800;
+  font-size: 30px;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.service-top-section-card-text-desc {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+  width: 250px;
+  height: 157px;
+  margin-top: 40px;
+}
+
+.service-section-btn {
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 15px;
+  background-color: transparent;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-self: flex-start;
+}
+
+.service-middle-section {
+  background-image: url("../../assets/services/services_bg_2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-width: 430px;
+  height: 1300px;
+}
+
+@media screen and (min-width: 768px) {
+  .service-top-section,
+  .service-middle-section {
+    height: 800px;
+  }
+
+  .service-top-section-card {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 5px;
+    height: 400px;
+    max-width: 1000px;
+  }
+
+  .service-section-btn {
+    display: none;
+  }
+
+  .service-top-section-card-text-desc {
+    font-size: 20px;
+    width: 400px;
+  }
+
+  .order-section-1 {
+    order: 1;
+  }
+  .order-section-2 {
+    order: 2;
+  }
+}
