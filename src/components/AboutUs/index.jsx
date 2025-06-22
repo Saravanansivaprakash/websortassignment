@@ -1,5 +1,5 @@
 import React from "react";
-import "./AboutUs.css";
+import "./AboutUS.css";
 import section3Img from "../../assets/aboutus/section3_img.png";
 import section4Img from "../../assets/aboutus/about-section4-img.png";
 import section5Img from "../../assets/services/service_digital_mark_img.jpg";
