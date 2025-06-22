@@ -1,7 +1,7 @@
 import React from "react";
 import "./AboutUS.css";
 import section3Img from "../../assets/aboutus/section3_img.png";
-import section4Img from "../../assets/aboutus/about-section4-img.png";
+import section4Img from "../../assets/aboutus/about-section4-Img.png";
 import section5Img from "../../assets/services/service_digital_mark_img.jpg";
 import devImg from "../../assets/services/service_app_img.jpg";
 import dgImg from "../../assets/aboutus/dgImg.jpg";
