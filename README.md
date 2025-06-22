@@ -7,6 +7,44 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# WebSort Assignment - ReactJS Website
+
+&nbsp; This is a responsive and modern website built for **WebSort assignment** using ReactJS. The project uses **Vite** for blazing-fast development and build process, **React Router DOM** for seamless navigation between pages, and **Swiper.js** for elegant and responsive image sliders.
+
+## 🚀 Tech Stack
+
+- **ReactJS**
+- **Vite**
+- **React Router DOM**
+- **Swiper.js**
+- **CSS**
+
+---
+
+## 📸 Features
+
+- Responsive design across devices
+- Image slider using Swiper
+- Multi-page routing with React Router DOM
+- Fast development build with Vite
+- Clean, modular code structure
+
+---
+
+### Install dependencies:
+```bah
+npm install
+```
+### Run the development server:
+```bash 
+npm run dev
+```
+### Build for production:
+```bash 
+npm run build
+```
+
+
+
+
